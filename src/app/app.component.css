@@ -1,0 +1,41 @@
+.box {
+height: 200px;
+width: 200px;
+overflow:scroll;
+background: cornflowerblue;
+}
+
+    /* .product--grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+    }
+    .img {
+        width: 40%;
+        border-radius: 10px;
+         }
+         #h2,#p{
+            margin: 0;
+        }
+ */
+/* @media screen and (min-width: 500px) {
+    .product--grid{
+        display:flex;
+        flex-direction: column;
+    }
+        .img {
+        width: 400%;
+        border-radius: 10px;
+         }
+         #h2,#p{
+            margin: 0;
+        } 
+} */
+/* @media only screen and (min-width: 768px) {
+    .product--grid{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 15px;
+    }
+}    */
+

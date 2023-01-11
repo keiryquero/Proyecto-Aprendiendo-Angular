@@ -1,0 +1,76 @@
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.padre {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.header {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: black;
+}
+.menu {
+  background-color: goldenrod;
+  display: flex;
+  flex-flow: nowrap;
+  height: 100px;
+  align-items: center;
+}
+.logo {
+  background-color: gold;
+  flex: 1 1 auto;
+  height: 30px;
+}
+.nav {
+  background-color: gold;
+  flex: 5 1 auto;
+  height: 30px;
+}
+.social {
+  background-color: gold;
+  flex: 1 1 auto;
+  height: 30px;
+}
+.textoPrincipal {
+  background-color: #d7dbdd;
+}
+h1 {
+  background-color: goldenrod;
+}
+.section {
+  background-color: black;
+  display: flex;
+}
+.artículos {
+  background-color: goldenrod;
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.article {
+  background-color: gold;
+  flex: 1 1 40%;
+}
+.navegacion {
+  background-color: #d7dbdd;
+  flex: 1 1 100%;
+}
+.aside {
+  background-color: #d7dbdd;
+}
+.publicidad {
+  background-color: gold;
+}
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.pie {
+  background-color: #d7dbdd;
+  width: 300px;
+}

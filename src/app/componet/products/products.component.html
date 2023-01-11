@@ -1,0 +1,13 @@
+<p>Total de Productos seleccionados {{myShoppingCard.length}}</p>
+<p>Total Precio: ${{total}}</p>
+<p>Today: {{ today | date : 'short' }}</p> 
+<p>Today: {{ today | timeAgo }}</p> 
+<p> TranforPipe: {{ vowels | tranforVocals}}</p>
+<div class="products--grid">
+  <app-product 
+  [product]="product" 
+  *ngFor="let product of products" 
+  (addedProduct)="onAddToShoppingCard($event)"
+  >
+</app-product>
+</div>
